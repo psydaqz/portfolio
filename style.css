@@ -196,11 +196,10 @@
     height: 400px;
   }
   .avatar-bg {
-    position: absolute;
-    inset: 0;
-    border: 1px solid rgba(232,255,71,0.15);
-    border-radius: 4px;
-    background: linear-gradient(135deg, rgba(232,255,71,0.04) 0%, transparent 60%);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   }
   .avatar-placeholder {
     position: absolute;
